@@ -1,0 +1,143 @@
+@/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	width: 0px;
+}
+body {
+	line-height: 1;
+	width: 1920px;
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+	color: #0A620B;
+	font-size: 36px;
+	text-shadow: 0px 0px #30B819;
+}
+ol, ul {
+	list-style: none;
+	width: 800px;
+	height: 600px;
+	color: #CA191C;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+	
+html, body {
+	height: 100%;
+	font-family: 'Montserrat' , sans-serif;
+	font-style: italic;	
+}
+
+header {
+	background-color: #4cb2b4;
+	position: absolute;
+	left: 809px;
+	top: 15px;
+}
+
+header img {
+	width: 150px;
+	display: block;
+}
+
+nav ul li {
+	color: white;
+	display: inline;
+	font-weight: 700;
+}
+
+.home {
+	background: green url('assets/barcelona-turismo.jpg') no-repeat center center fixed;
+	background-size: cover; 
+
+	height: 100%;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	padding-top: 20% 0;
+	box-sizing: border-box;
+	
+	
+	
+	
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: 400;
+	background-image: url(images/historia-del-rock-sinfonico.jpg), -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(125,58,58,1.00) 100%);
+	background-image: url(images/historia-del-rock-sinfonico.jpg), -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(125,58,58,1.00) 100%);
+	background-image: url(images/historia-del-rock-sinfonico.jpg), -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(125,58,58,1.00) 100%);
+	background-image: url(images/historia-del-rock-sinfonico.jpg), linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(125,58,58,1.00) 100%);
+	letter-spacing: normal;
+}
+
+.boton {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: grey ;
+	padding: 20px 30px 20px 30px;
+	font-weight: 400;
+	border-bottom: 6px solid orange;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+footer 
+	{
+	background-color: red;
+	padding: 10;
+	margin: 200;
+	color: #BDBE3E;
+	position: fixed;
+	top: 60px;
+	right: 100px;
+	float: left;
+	font-family: carter-one;
+	font-style: normal;
+	font-weight: 400;
+	border-width: thin;
+	}
+	footer a{
+		color: black;
+		text-decoration: none;
+	}
+	footer {
+		padding: 20px 0;
